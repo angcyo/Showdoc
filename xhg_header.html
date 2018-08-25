@@ -7,11 +7,6 @@
     <link rel="shortcut icon" href="xhg_logo.png">
 
     <style>
-        a {
-            text-decoration: none;
-            display: inline;
-        }
-
         .h_center {
             /*background-color: #0e90d2;*/
             text-align: center; /*让div内部文字居中*/
@@ -25,6 +20,7 @@
         }
 
         .button {
+            text-decoration: none;
             background-color: #ffbf00;
             border-radius: 5px;
             color: #fff;
@@ -39,9 +35,21 @@
         .button:hover {
             background-color: #ff9103;
         }
+
+        .right {
+            float: right;
+        }
+
+        .myProject {
+            margin: 0px 10px;
+            padding: 10px 10px;
+        }
     </style>
 </head>
 <body>
+<div>
+    <a href="web/#/item/index" class="right myProject">我的项目</a>
+</div>
 <div class="h_center">
     <img src="http://www.xhg.com/images/p1-1.png" style="margin-top: 40px">
     <h3>小黄狗文档中心</h3>
